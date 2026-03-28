@@ -1,0 +1,108 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        background: linear-gradient(135deg, #e0f2fe 0%, #bae6fd 100%);
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .container {
+        background: white;
+        padding: 40px;
+        border-radius: 15px;
+        box-shadow: 0 10px 30px rgba(7, 11, 65, 0.1);
+        max-width: 500px;
+        width: 100%;
+        padding: auto;
+    }
+
+    h1 {
+        color: #0369a1;
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 28px;
+    }
+
+    label {
+        display: block;
+        color: #334155;
+        font-weight: bold;
+        margin-bottom: 8px;
+        font-size: 15px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+        width: 100%;
+        padding: 12px;
+        border: 2px solid #bae6fd;
+        border-radius: 8px;
+        font-size: 14px;
+        transition: border-color 0.3s;
+        font-family: Arial, sans-serif;
+    }
+
+
+    button {
+        width: 100%;
+        padding: 14px;
+        background: linear-gradient(135deg, #0ea5e9 0%, #0369a1 100%);
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    button:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(14, 165, 233, 0.4);
+    }
+
+    button:active {
+        transform: translateY(0);
+    }
+
+    p {
+        text-align: center;
+        align-items: center;
+        color:rgb(73, 144, 172);
+    }
+    .card{
+        border: 2px solid skyblue;
+        padding: 90px 90px;
+        margin: 20px;
+        box-shadow: 0px 5px 15px #0ea5e9;
+    }
+    .card:hover{
+        box-shadow: 0px 5px 15px #334155;
+    }
+  .card1{
+        border: 2px solid skyblue;
+        padding: 90px 90px;
+        margin: 20px;
+        box-shadow: 0px 5px 15px #0ea5e9;
+    }
+    .card1:hover{
+        box-shadow: 0px 5px 15px #334155;
+    }
+    .card2{
+        border: 2px solid skyblue;
+        padding: 90px 90px;
+        margin: 20px;
+        box-shadow: 0px 5px 15px #0ea5e9;
+    }
+    .card2:hover{
+        box-shadow: 0px 5px 15px #334155;
+    }
